@@ -1,13 +1,13 @@
 pipeline {
   agent {
-      label "tools"
+    label "tools"
   }
   
   stages {
-      stage("test") {
-        steps {
-          sh "ls"
-        }
+    stage("test") {
+      steps {
+        sh "ls"
       }
+    }
   }
 }
