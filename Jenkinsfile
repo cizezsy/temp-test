@@ -6,6 +6,7 @@ pipeline {
   stages {
     stage("test") {
       steps {
+        echo "123"
         sh "ls"
       }
     }
